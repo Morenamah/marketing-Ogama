@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Page } from '../types';
 
@@ -13,7 +12,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           
           <div>
-            <h3 className="text-xl font-bold tracking-wider">GAMA</h3>
+            <h3 className="text-xl font-bold tracking-wider">OGAMA</h3>
             <p className="mt-4 text-gray-400">
               Precisão e confiabilidade em cada laudo.
             </p>
@@ -50,7 +49,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
               </li>
               <li className="flex items-center">
                  <span className="flex-shrink-0 h-6 w-6 text-gray-400">✉️</span>
-                <span className="ml-3">contato@gamaavaliacoes.com</span>
+                <span className="ml-3">contato@ogamaavaliacoes.com</span>
               </li>
             </ul>
           </div>
@@ -74,7 +73,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
           </div>
         </div>
         <div className="mt-12 border-t border-gray-700 pt-8">
-          <p className="text-base text-gray-400 text-center">&copy; {new Date().getFullYear()} Gama Avaliação de Imóveis. Todos os direitos reservados.</p>
+          <p className="text-base text-gray-400 text-center">&copy; {new Date().getFullYear()} Ogama Avaliação de Imóveis. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

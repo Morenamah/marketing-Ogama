@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 const ContactPage: React.FC = () => {
@@ -52,7 +51,7 @@ const ContactPage: React.FC = () => {
               </p>
               <p className="flex items-center">
                  <span className="flex-shrink-0 h-6 w-6 text-gray-500">✉️</span>
-                <span className="ml-3">contato@gamaavaliacoes.com</span>
+                <span className="ml-3">contato@ogamaavaliacoes.com</span>
               </p>
             </div>
           </div>

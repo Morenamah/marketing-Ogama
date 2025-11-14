@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Page, Service, Testimonial } from '../types';
 import { BanknotesIcon, BuildingOfficeIcon, ScaleIcon, CheckCircleIcon } from './icons';
@@ -27,7 +26,7 @@ const services: Service[] = [
 
 const testimonials: Testimonial[] = [
   {
-    quote: "O laudo da Gama foi fundamental para o sucesso do nosso processo. Profissionalismo e precisão impecáveis.",
+    quote: "O laudo da Ogama foi fundamental para o sucesso do nosso processo. Profissionalismo e precisão impecáveis.",
     name: "João Silva",
     role: "Advogado"
   },
@@ -72,7 +71,7 @@ const HomePage: React.FC<HomePageProps> = ({ setCurrentPage }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Gama Avaliação de Imóveis
+              Ogama Avaliação de Imóveis
             </h2>
             <p className="mt-4 text-lg text-gray-600">
               Somos especialistas em avaliações imobiliárias, comprometidos em fornecer laudos técnicos detalhados e em conformidade com as normas ABNT. Nossa missão é oferecer segurança e clareza para suas decisões patrimoniais, sejam elas judiciais, financeiras ou pessoais.

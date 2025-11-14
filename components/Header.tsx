@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Page } from '../types';
 import { MenuIcon, XIcon } from './icons';
@@ -52,7 +51,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
               onClick={() => setCurrentPage(Page.Home)}
               className="text-white text-2xl font-bold tracking-wider"
             >
-              GAMA
+              OGAMA
             </button>
           </div>
           <div className="hidden md:block">
