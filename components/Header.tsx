@@ -49,9 +49,9 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) => {
           <div className="flex items-center">
             <button
               onClick={() => setCurrentPage(Page.Home)}
-              className="text-white text-2xl font-bold tracking-wider"
+              className="text-white text-xl font-bold tracking-wider"
             >
-              OGAMA
+              OGAMA Soluções Imediatas
             </button>
           </div>
           <div className="hidden md:block">

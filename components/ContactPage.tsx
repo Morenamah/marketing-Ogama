@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 
+const CONTACT_NAME = "Tarso Ogama";
+const CONTACT_PHONE = "(41) 98495-9548";
+const CONTACT_EMAIL = "tarso@ogamaimoveis.com.br";
+
 const ContactPage: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -41,17 +45,17 @@ const ContactPage: React.FC = () => {
               Pronto para dar o próximo passo? Preencha o formulário ao lado para solicitar uma avaliação ou tirar suas dúvidas. Nossa equipe entrará em contato o mais breve possível.
             </p>
             <div className="mt-8 text-gray-600 space-y-4">
-               <p className="flex items-start">
-                <span className="flex-shrink-0 h-6 w-6 text-gray-500">📍</span>
-                <span className="ml-3">Av. Principal, 123, Centro, Cidade-UF, 12345-678</span>
+               <p className="flex items-center">
+                <span className="flex-shrink-0 h-6 w-6 text-gray-500">👤</span>
+                <span className="ml-3">Contato: {CONTACT_NAME}</span>
               </p>
               <p className="flex items-center">
                  <span className="flex-shrink-0 h-6 w-6 text-gray-500">📞</span>
-                <span className="ml-3">(99) 99999-9999</span>
+                <span className="ml-3">{CONTACT_PHONE}</span>
               </p>
               <p className="flex items-center">
                  <span className="flex-shrink-0 h-6 w-6 text-gray-500">✉️</span>
-                <span className="ml-3">contato@ogamaavaliacoes.com</span>
+                <span className="ml-3">{CONTACT_EMAIL}</span>
               </p>
             </div>
           </div>

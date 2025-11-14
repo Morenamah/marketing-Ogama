@@ -5,6 +5,10 @@ interface FooterProps {
   setCurrentPage: (page: Page) => void;
 }
 
+const CONTACT_NAME = "Tarso Ogama";
+const CONTACT_PHONE = "(41) 98495-9548";
+const CONTACT_EMAIL = "tarso@ogamaimoveis.com.br";
+
 const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
   return (
     <footer className="bg-gray-800 text-white">
@@ -12,7 +16,7 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           
           <div>
-            <h3 className="text-xl font-bold tracking-wider">OGAMA</h3>
+            <h3 className="text-xl font-bold tracking-wider">OGAMA Soluções Imediatas</h3>
             <p className="mt-4 text-gray-400">
               Precisão e confiabilidade em cada laudo.
             </p>
@@ -39,17 +43,17 @@ const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
           <div>
             <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Contato</h3>
             <ul className="mt-4 space-y-4 text-gray-300">
-              <li className="flex items-start">
-                <span className="flex-shrink-0 h-6 w-6 text-gray-400">📍</span>
-                <span className="ml-3">Av. Principal, 123, Centro, Cidade-UF, 12345-678</span>
+              <li className="flex items-center">
+                 <span className="flex-shrink-0 h-6 w-6 text-gray-400">👤</span>
+                <span className="ml-3">Contato: {CONTACT_NAME}</span>
               </li>
               <li className="flex items-center">
                  <span className="flex-shrink-0 h-6 w-6 text-gray-400">📞</span>
-                <span className="ml-3">(99) 99999-9999</span>
+                <span className="ml-3">{CONTACT_PHONE}</span>
               </li>
               <li className="flex items-center">
                  <span className="flex-shrink-0 h-6 w-6 text-gray-400">✉️</span>
-                <span className="ml-3">contato@ogamaavaliacoes.com</span>
+                <span className="ml-3">{CONTACT_EMAIL}</span>
               </li>
             </ul>
           </div>
